@@ -3,7 +3,7 @@ def bubleSort(nums):
     for i in range(len(nums) - 1, 0, -1):
         for j in range(i):
             if nums[j] > nums[j + 1]:
-		# Swapping value if first number is greater then second number
+		# Swapping value if first number is greater than second number
                 temp = nums[j]
                 nums[j] = nums[j + 1]
                 nums[j + 1] = temp
