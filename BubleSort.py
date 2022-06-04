@@ -12,5 +12,4 @@ def bubleSort(nums):
 
 numbers = [5, 3, 8, 6, 7, 2]
 bubleSort(numbers)
-print()
-print(numbers)
+print("Sorted Array is", numbers)
